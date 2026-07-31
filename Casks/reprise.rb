@@ -1,15 +1,15 @@
 cask "reprise" do
-  version "1.0.0"
-  sha256 "1282aa66edc03d0280602c1845dc7d278d70596b7c0804d6b86d12bcbdd48f0f"
+  version "1.1.0"
+  sha256 "e363288ff12eab68b140ae056852a0acec838519af937ddef85c877f050cf528"
 
-  url "https://github.com/aodjo/reprise-releases/releases/download/v#{version}/Reprise-#{version}-macos-universal.zip",
-      verified: "github.com/aodjo/reprise-releases/"
+  url "https://github.com/aodjo/Reprise/releases/download/v#{version}/Reprise-#{version}-macos-universal.zip",
+      verified: "github.com/aodjo/Reprise/"
   name "Reprise"
-  desc "Control Spotify and Apple Music from the menu bar"
+  desc "Control Spotify, Apple Music, and YouTube Music from the menu bar"
   homepage "https://junx.dev/"
 
   livecheck do
-    url "https://github.com/aodjo/reprise-releases"
+    url "https://github.com/aodjo/Reprise"
     strategy :github_latest
   end
 
