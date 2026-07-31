@@ -1,6 +1,6 @@
 cask "reprise" do
-  version "1.0"
-  sha256 "d0bab6befba5ca483134a6afdb71a2f5b314e901641a719a39d58ed7ecb24c84"
+  version "1.0.0"
+  sha256 "1282aa66edc03d0280602c1845dc7d278d70596b7c0804d6b86d12bcbdd48f0f"
 
   url "https://github.com/aodjo/reprise-releases/releases/download/v#{version}/Reprise-#{version}-macos-universal.zip",
       verified: "github.com/aodjo/reprise-releases/"
