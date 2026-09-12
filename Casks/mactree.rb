@@ -1,6 +1,6 @@
 cask "mactree" do
-  version "1.0.1"
-  sha256 "47e1f49e97af697fe6a28aa2bad985dd584bbd3b8b18e260df0606fbc69ab0c3"
+  version "1.0.2"
+  sha256 "d08f581c00865e2a06366e253eb9ccf8d903a6723c8570b15378bb0a22a289d5"
 
   url "https://github.com/aodjo/macTree/releases/download/v#{version}/MacTree-v#{version}.zip"
   name "MacTree"
@@ -25,9 +25,6 @@ cask "mactree" do
   ]
 
   caveats <<~EOS
-    MacTree is not notarized. If macOS says it cannot be opened, go to
-    System Settings > Privacy & Security and click "Open Anyway".
-
     For complete results, allow Full Disk Access when MacTree asks.
   EOS
 end
